@@ -1,0 +1,21 @@
+References: stackoverflow, wikipedia, textbook, Professor's Given Code
+
+Algorithm is referred from multiple sources.  https://github.com/aimacode/aima-pseudocode/blob/master/md/TT-Entails.md and 
+http://aimacode.github.io/aima-java/aima3e/javadoc/aima-core/aima/core/logic/propositional/inference/TTEntails.html
+http://vlm1.uta.edu/~athitsos/courses/cse4308_fall2015/lectures/03a_tt_entails.pdf
+https://stackoverflow.com/questions/12444927/confusion-in-propositional-logic-algorithm
+
+Name: Swetha, Vijaya Raghavan
+ID: 1001551229
+Programming Language: Python 2.4
+Code Structure:
+There are two .py Files, and the script parameters are wumpus_rules.txt file, additional knowledge file which is kb1.txt and a statement which is statement1.txt like alpha.
+
+1. In the check_true_false.py, I will first read the wumpus rules and based on that a knowledge base is created. Again, I will read the additional knowledge, and those expressions to the knowledge base and will verify those expressions. Again I will read the statement file by verifying it to check entailment. This is done by TTEntails function.
+
+2. In the logical_expression.py, the following functions are added to the existing code.
+readingSymbols function to read the symbol, extend function is created to extend the symbols. ttCheckAll function is for the TT check for all the functions. plTrue function checks all the connectives like OR, AND, NOT, IF, IFF, XOR
+TTEntails fucntion is created inorder to check the symbols and statements with knowledge base.
+
+Code Execution:
+python check_true_false.py wumpus_rules.txt kb1.txt statement1.txt

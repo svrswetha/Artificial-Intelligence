@@ -1,0 +1,19 @@
+References: stackoverflow, wikipedia, textbook, Professor's Given Code
+
+
+Name: Swetha, Vijaya Raghavan
+ID: 1001551229
+Programming Language: Python 2.4
+Code Structure:
+
+Implemented minmax algorithm with alpha beta pruning which is depth limited.
+My code constructs the tree based on the input and the mentioned depth,
+It gets an optimal move against the opponent and makes the move based on
+alpha beta pruning.
+
+Code Execution:
+For Interactive Mode:
+python maxconnect4.py interactive input2.txt computer-next 5
+
+For One-Move Mode:
+python maxconnect4.py one-move input1.txt output1.txt 10

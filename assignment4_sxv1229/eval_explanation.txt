@@ -1,0 +1,9 @@
+
+References: stackoverflow, Wikipedia, Class Slides
+
+1. Evaluation Function is the simplest which generates the Utility Value.
+2. In order for the chance of winning of the player which is done by calculating
+the score difference of each player.
+3. In order to get the decision which includes the best possible action for an optimal move, our minmax algorithm will compare the utility value which is returned to it with the best value.
+4. This improves the decision making ability of the computer which in turns reduces the
+each decision time taken.
